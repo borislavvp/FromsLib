@@ -52,5 +52,5 @@
   });
 </script>
 
-<style src="./theme/main.css">
+<style src="./assets/css/app.css">
 </style>

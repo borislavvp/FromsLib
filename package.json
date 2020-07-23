@@ -1,0 +1,26 @@
+{
+	"name": "test",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"css:build": "postcss src/theme/tailwind.css -o src/theme/main.css"
+	},
+	"dependencies": {
+		"@vue/composition-api": "^1.0.0-beta.3",
+		"autoprefixer": "^9.8.4",
+		"core-js": "^3.6.5",
+		"postcss-cli": "^7.1.1",
+		"tailwindcss": "^1.4.6",
+		"vue": "^2.6.11",
+		"vue-router": "^3.3.4"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.4.0",
+		"@vue/cli-plugin-typescript": "~4.4.0",
+		"@vue/cli-service": "~4.4.0",
+		"typescript": "~3.9.3",
+		"vue-template-compiler": "^2.6.11"
+	}
+}
